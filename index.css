@@ -1,0 +1,8 @@
+body{display: flex; font-family: Helvetica}
+body .Container {flex-wrap: nowrap; flex-direction: column;margin: 20px auto 0 auto;width: 100%;}
+body .Container h1 {margin:10px auto 20px auto;text-align: center;font-size: 48px;color: #303030;}
+body .Container .Text_Container {width:60%;margin: 10px auto 0 auto;}
+body .Container .Text_Container ul{width: auto;list-style-type: none;margin: 0;padding: 0;}
+body .Container .Text_Container ul li{box-shadow: 6px 6px 8px 6px #e7e0e0;border-radius: 3px;display: flex;flex-direction: column;}
+body .Container .Text_Container ul li .Text{margin:10px 5px 10px 5px;font-size: 16px;font-weight:400;color: #303030;overflow-wrap: break-word;}
+body .Container .Text_Container ul li span{flex-direction: row-reverse;margin: 20px 5px 5px auto;color: blueviolet;font-size: 12px;font-weight:bolder}
