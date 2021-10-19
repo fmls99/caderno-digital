@@ -1,12 +1,14 @@
-body{display: flex; font-family: Helvetica; background-color:#303030;}
+body {display: flex; font-family: Helvetica; background-color:#303030; margin:0}
+body .Strip1 {background: linear-gradient(180deg, rgba(95,158,160,1) 0%, rgba(0,139,139,1) 25%, rgba(37,107,144,1) 40%, rgba(102,51,153,1) 50%, rgba(49,97,146,1) 60%, rgba(0,139,139,1) 75%, rgba(95,158,160,1) 100%); width: 7%; height: 350%; position: relative; top: 135;border-top-right-radius: 3px;border-bottom-right-radius: 3px;}
+body .Strip2 {background: linear-gradient(180deg, rgba(95,158,160,1) 0%, rgba(0,139,139,1) 25%, rgba(37,107,144,1) 40%, rgba(102,51,153,1) 50%, rgba(49,97,146,1) 60%, rgba(0,139,139,1) 75%, rgba(95,158,160,1) 100%); width: 7%; height: 350%; position: relative; right: 0; top: 135;border-top-left-radius: 3px;border-bottom-left-radius: 3px;background-repeat: repeat;}
 body .Container {flex-wrap: nowrap; flex-direction: column;margin: 20px auto 0 auto;width: 100%;}
 body .Container h1 {margin:10px auto 20px auto;text-align: center;font-size: 4.5em;background: linear-gradient(60deg, rgba(95,158,160,1) 0%, rgba(0,139,139,1) 25%, rgba(37,107,144,1) 40%, rgba(102,51,153,1) 50%, rgba(49,97,146,1) 60%, rgba(0,139,139,1) 75%, rgba(95,158,160,1) 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
 body .Container .Text_Container {width:60%;margin: 10px auto 0 auto;}
-body .Container .Text_Container ul{width: auto;list-style-type: none;margin: 0;padding: 0;}
-body .Container .Text_Container ul li{box-shadow: 0px 0px 12px 0px #3f3f3f7a;border-radius: 3px;display: flex;flex-direction: column;background-color:#282828;margin-bottom: 35px;}
-body .Container .Text_Container ul li .Text{margin:20px;font-size: 1em;color: whitesmoke;overflow-wrap: break-word;font-family: Verdana;text-align: justify;text-justify: inter-word;}
-body .Container .Text_Container ul li span{flex-direction: row-reverse;margin: 20px 20px 20px auto;color:cadetblue;font-size: 13px;font-weight:bolder;font-style: italic;font-family: monospace;}
-body .Container .Text_Container ul li .Topic{margin:25px auto 10px auto; font-size: 0.85em;color:cadetblue;font-weight:bolder;font-family: Verdana;font-style: normal;display: flex;flex-direction: column;align-items: center;}
+body .Container .Text_Container ul {width: auto;list-style-type: none;margin: 0;padding: 0;}
+body .Container .Text_Container ul li {box-shadow: 0px 0px 12px 0px #3f3f3f7a;border-radius: 3px;display: flex;flex-direction: column;background-color:#282828;margin-bottom: 35px;}
+body .Container .Text_Container ul li .Text {margin:20px;font-size: 1em;color: whitesmoke;overflow-wrap: break-word;font-family: Verdana;text-align: justify;text-justify: inter-word;}
+body .Container .Text_Container ul li span {flex-direction: row-reverse;margin: 20px 20px 20px auto;color:cadetblue;font-size: 13px;font-weight:bolder;font-style: italic;font-family: monospace;}
+body .Container .Text_Container ul li .Topic {margin:25px auto 10px auto; font-size: 0.85em;color:cadetblue;font-weight:bolder;font-family: Verdana;font-style: normal;display: flex;flex-direction: column;align-items: center;}
 body .Container .Text_Container ul li it {font-style: italic;color:cadetblue;font-size: 1.07em;}
 body .Container .Text_Container ul li spoiler {font-size: 1.16em;font-family:monospace;color:darkorchid;font-weight: 600;}
 body .Container .Text_Container ul li spoils {color:goldenrod;}
