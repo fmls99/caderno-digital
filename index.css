@@ -12,4 +12,6 @@ body .Container .Text_Container ul li .Topic {margin:25px auto 10px auto; font-s
 body .Container .Text_Container ul li it {font-style: italic;color:cadetblue;font-size: 1.07em;}
 body .Container .Text_Container ul li spoiler {font-size: 1.16em;font-family:monospace;color:darkorchid;font-weight: 600;}
 body .Container .Text_Container ul li spoils {color:goldenrod;}
+body .Container .Text_Container ul li img {max-width: 98%;width: auto;display: flex;margin: auto;}
+body .Container .Text_Container ul li a {text-decoration: none;}
 
