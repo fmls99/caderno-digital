@@ -137,37 +137,37 @@
 
               Com os recursos importados e os <it>assets</it>, prontos para serem utilizados, criou-se um nivel através dos seguintes passos representados nas imagens. Começou-se por clicar no <spoils>"+"</spoils>, situado no canto superior esquerdo.<br><br>
               
-              <img src="Images\Adding Child Node.png"><br><br>
+              <img src="Images\Adding Child Node.png"><br>
 
               O que se sucede em criar um <spoils>"2DNode"</spoils> através o modal que aparece, consequente do passo anterior.<br><br>
 
-              <img src="Images\Create 2DNode.png"><br><br>
+              <img src="Images\Create 2DNode.png"><br>
 
               Com o nivel criado, podemos começar a criar no nosso mapa. Para tal temos que criar um <spoils>"Tilemap"</spoils>, em que o processo e bastante semelhante aos anteriores.
               Desta vez, clicamos do lado direito do rato em cima do nivel no menu lateral e adicionamos um <spoils>"Child Node"</spoils>.<br><br>
 
-              <img src="Images\Adding Child Node To Level.png"><br><br>
+              <img src="Images\Adding Child Node To Level.png"><br>
 
               No qual envez de criar um <spoils>"2DNode"</spoils>, abrimos a categoria e descemos até encontrar <spoils>"Tilemap"</spoils>, selecionando esse para criar.<br><br>
 
-              <img src="Images\Create Tilemap.png"><br><br>
+              <img src="Images\Create Tilemap.png"><br>
 
               Apartir dai, podemos começar a configurar como vamos querer os <spoils>Tiles</spoils> do nivel, pessoalmente, na realização deste projeto, só se alterou os tamanhos que cada um desses <spoils>Tiles</spoils> iria ocupar. O utilizador, de qualquer das formas, irá ser apresentado à direita com varias escolhas de manipulação desse mesmo <spoils>Tilemap</spoils>.<br><br>
 
-              <img src="Images\Tilemap Options.png"><br><br>
+              <img src="Images\Tilemap Options.png"><br>
 
               Para começar a utilizar os <it>assets</it> importados, clica-se no lado direito do rato em cima do <spoils>"TileSet"</spoils>, e escolhemos <spoils>"New TileSet"</spoils>.<br><br>
 
-              <img src="Images\New TileSet.png"><br><br>
+              <img src="Images\New TileSet.png"><br>
 
               Neste <spoils>"TileSet"</spoils>, podemos finalmente importar os <it>assets</it> através do botão no canto inferior esquerdo. Este irá abrir um explorador de ficheiros proprio do Godot e nesse mesmo podemos então adicionar os recursos que anteriormente importamos.<br><br>
 
-              <img src="Images\Adding Assets.png"><br><br>
+              <img src="Images\Adding Assets.png"><br>
 
               O ultimo passo antes da criação de nivel, será então adicionar as propriedades que queremos e finalmente criar o recurso no <spoils>"TileSet"</spoils>. Para isso acontecer, clicamos no recurso que ira demonstrar o seguinte menu com opções que utilizador pode configurar, e que
               por fim, pode clicar em <spoils>"New Single Tile"</spoils>, para criar esse recurso no <spoils>"TileSet"</spoils>, e finalmente utiliza-lo para fazer o nivel.<br><br>
 
-              <img src="Images\Add Asset To TileSet.png"><br><br>
+              <img src="Images\Add Asset To TileSet.png"><br>
 
               Finalmente, pode-se dar inicio á criação e edição do nivel, em qualquer futuro caso reminiscente de importação de <it>assets</it> e/ou criação de <spoils>Tilemaps</spoils>, o processo continua exatamente igual.<br><br>
 
@@ -177,29 +177,74 @@
               <span class="Topic">Idealização do Nivel</span>
               A ideia para o nivel, tal como explicado no <it>'Game Design Document'</it>, foi inspirada dos famosos <it>'dungeons'</it> do <it>Terraria</it>, estes sendo bastantes complexos e extensos, fazendo com que o jogador se perca por horas na profundezas dessas supostas relíquias abandonadas.<br><br>
 
-              <img src="Images\Terraria Dungeon Example.png"><br><br>
+              <img src="Images\Terraria Dungeon Example.png"><br>
 
               Contudo, deve-se tambem frisar que o estilo pixalizado do <it>Super Mario Bros</it>, tal como a sua enfase em <it>platforming</it> foram ambas grandes inspirações para o desenvolvimento do jogo num todo.
               Concluido com a adição pessoal de <spoils>Wall Jumping</spoils>, a enfase em <it>platforming</it>, passou não so a ser horizontal como tambem vertical, podendo utilizar uma area mais abrangente das futuras cavernas do jogo.<br><br>
 
               <br>
               <span class="Topic">Terraforming</span>
+              Dando então inicio ao processo pratico de criação de nivel, começou-se por delinear uma area horizantal e vertical para englobarmos o mapa ao todo. Decidiu-se fazer uma mapa enorme envez de varios mini-niveis.
+              Após ter uma estimativa da area que se iria utilizar, começou-se a fazer caminhos de forma aleatoria até obtermos um desejado mapa. Por fim acabou-se por o primeiro <it>sketch</it> do mapa.<br><br>
+
+              <img src="Images\Terraformed Area.png"><br>
+
+              Depois de ficar satisfeito com o criado, arredondou-se certas areas para ter uma area mais ampla como se fosse uma abertura na caverna, isto serviu para mais tarde melhorar a verticalidade em espaços mais amplos.
+              Criou-se ainda pequenas plantas para delenar as paredes invisiveis que se iriam implementar mais tarde, sendo desde inicio uma ideia solida para aumentar a complexidade do jogo.<br><br>
+
+              <img src="Images\Plant Marker Example.png"><br>
 
               <br>
               <span class="Topic">Platforming/Level Design</span>
+              Passando agora para a etapa que mais tempo demorou, o planeamento do nivel. Este foi um processo que demorou bastante tempo, dado o facto das dimensões do nivel, tendo como por objetivo focal tornar uma corrida contra o tempo numa caverna vazia, algo mais complexo do que simplesmente correr.
+              A planeamento de inicio foi feito atravez das <it>assets</it> das caixas, sendo estas as mais simples e faceis de destinguir entre a terra e o <it>background</it>.<br><br>
+
+              <img src="Images\Level Design1.png"><br>
+
+              Por fim, após 3 dias obteve-se o primeiro <it>draft</it> completo do nivel, tendo um aspeto bastante parecido com o produto final, sendo futuramente ajustado para facilitar, dificultar ou somente corrigir o nivel.<br><br>
+
+              <img src="Images\Finished Level Design.png"><br>
 
               <br>
               <span class="Topic">Aumentar Complexidade de Nivel</span>
+              Com o <it>'Level Design'</it> feito, começou-se por detalhar certas zonas com verduras para salientar a existencia de paredes invisiveis estas as quais podem ser denotadas pela quebra imediata dessas mesmas verduras, <spoils>caso seja parede falsa</spoils>, e um exagero dessas mesmas verduras, <spoils>caso seja chão falso</spoils>.
+              Caso o jogador esteja atento pode beneficiar destes potenciais atalhos para concluir o nivel mais depressa, da mesma maneira, se esse mesmo substimar ou ignorar o nivel pode facilmente desorientar-se, mas nunca ficar preso, pois todas as zonas teem uma ou mais saidas.<br><br>
+              
+              <img src="Images\False Walls Example.png"><br>
+
+              Com as paredes prontas virou-se a atenção para o colecionaveis onde, a este ponto, decidimos utilizar cerejas pelo simples facto de ja termos importado um recurso com esse <spoils>sprite</spoils>.
+              Estas cerejas foram colacadas em sitios especificos pelo mapa havendo um total de 65 para colecionar, algumas durante o caminho outras escondidas, desta forma dependendo de quantas vezes o jogador ja completou o jogo cada experiencia vai ser mais aperfeiçoada por conhecimendo de novos caminhos que anteriormente eram desconhecidos, criando a tal
+              desejada componente de <it>Trial-n-Error</it> de forma progressiva, aumentando a <it>replayability</it> do jogo.<br><br>
+
+              <img src="Images\Collectiable Example.png"><br>
 
               <br>
               <span class="Topic">Detalhes Extra</span>
+              Por fim, nesta etapa de <it>Level Design</it>, as caixas foram convertidas para blocos de de terra para coencidir com o tema de fundo, juntamente com a adição de detalhes por todo o nivel dando assim vida ao nivel com a intençao de quebrar a monotocidade desse mesmo. Paralelamente, o detalhe dado á panoplia de zonas existentes, desde arredondamento da caverna
+              até á adição de certos componentes ao chão, tornam com que o este seja mais facil de orientar tendo agora novos pontos de referencia para auxiliar em futuras <it>playthroughs</it>.<br><br>
+
+              <img src="Images\Finished Level Design-Penultimate.png"><br>
 
               <br>
               <span class="Topic">Idealização e Criação de Personagem</span>
+              Após a criação do nivel, virei a minha atenção para a necessidade de criar uma personagem, após uma curta pesquisa descobri uma personagem em <it>PixelArt</it> que achei interessante. Usando o site <a href="https://www.pixilart.com/draw"><spoils>PixilArt</spoils></a>, recriei essa personagem em 2 itereções.
+              Apesar de ter 2 versões acabamos por usar ambas fazendo mais <it>assets</it> para fazer animações, estas iterações surgiram de ambas bases finalmente dando o aspeto de bardo desejado com algumas notas a surgir dos cantos do Tchad.<br><br>
+
+              <img src="Images\Tchad_Base1.png"><br>
+
+              <spoils>Existem 12 iterações do Tchad, 5 para <it>Idle</it> e outras 5 para <it>Movement</it>, finalmente as restantes 2 são as bases existentes utilizadas.</spoils><br><br>
 
               <br>
               <span class="Topic">Otimizações</span>
+              Por fim, depois da criação da personagem e do nivel, foi altura de otimizar o que havia, num curto somatório, o <it>Level Design</it> foi levemente alterado só para detalhar certas zonas e corrigir certas incongruências.
+              Fez-se tambem a remoção de <it>assets</it> que não se estavam a utilizar reduzido assim o tamanho do ficheiro em geral. O <it>background</it> que continha o ceu limpo, que outrora estava colocado em varios sitios, agora seguiria a personagem.
+              Ultimamente, por sugestão do professor, fez-se a ultima correção referente a um bug visual no fundo no nivel que se conseguia ver o ar nas grutas mais extremas do nivel.<br><br>
+
               
+
+              <img src="Images\Final Iteration.png"><br>
+
+              <spoils>Com as otimizações concluidas, deu-se como terminado o projeto, tendo o aspeto final da imagem anterior.</spoils>
 
             </div>
             <span>Criação do Jogo: Toss a Cherry To Your Bard</span>
